@@ -68,14 +68,22 @@ const Hero = () => {
           Passionate about clean code, stunning UI, and seamless user experiences.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-          <button className="px-6 py-3 rounded-md bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:opacity-90 transition">
-            View My Work
-          </button>
-          <button className="px-6 py-3 rounded-md border border-gray-400 text-gray-300 hover:text-white hover:border-white transition">
-            Get In Touch
-          </button>
-        </div>
+       <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+  <a
+    href="#projects"
+    className="px-6 py-3 rounded-md bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:opacity-90 transition"
+  >
+    View My Work
+  </a>
+
+  <a
+    href="#contact"
+    className="px-6 py-3 rounded-md border border-gray-400 text-gray-300 hover:text-white hover:border-white transition"
+  >
+    Get In Touch
+  </a>
+</div>
+
 
         {/* Social icons */}
         <div className="flex justify-center space-x-8">
