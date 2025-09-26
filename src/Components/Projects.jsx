@@ -56,7 +56,7 @@ const Projects = () => {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-6">
-            Featured  
+            Featured {""}
             <span className="bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600 bg-clip-text text-transparent">
                Projects
             </span>
